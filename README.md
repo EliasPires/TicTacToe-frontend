@@ -19,14 +19,14 @@ A aplicação se comunica em tempo real com o backend via **WebSocket (STOMP + S
 
 ## 🧱 Estrutura do Projeto
 
-src/
-├── components/ # Componentes de UI (GameBoard, Cell, etc.)
-├── pages/ # Páginas principais (Home, GameRoom, etc.)
-├── services/ # Comunicação com backend (REST e WebSocket)
-│ ├── api.ts # Configuração Axios
-│ └── websocket.ts # Conexão WebSocket com STOMP
-├── types/ # Interfaces e tipagens globais
-└── App.tsx # Componente raiz
+src/ <br>
+├── components/ # Componentes de UI (GameBoard, Cell, etc.) <br>
+├── pages/ # Páginas principais (Home, GameRoom, etc.) <br>
+├── services/ # Comunicação com backend (REST e WebSocket) <br>
+│ ├── api.ts # Configuração Axios <br>
+│ └── websocket.ts # Conexão WebSocket com STOMP <br>
+├── types/ # Interfaces e tipagens globais <br>
+└── App.tsx # Componente raiz <br>
 
 
 ---
